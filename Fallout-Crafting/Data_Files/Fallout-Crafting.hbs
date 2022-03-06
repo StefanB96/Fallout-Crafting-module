@@ -1,0 +1,39 @@
+<form class="custom-window-content">
+    <nav class="tabs custom-nav-bar" data-group="primary-tabs">
+        <ul class="custom-tabs flexrow">
+            <li class="custom-tab" data-tab="Weapons"><a class="custom-tab-content">Weapons</a></li>
+            <li class="custom-tab" data-tab="Appareal"><a class="custom-tab-content">Appareal</a></li>
+            <li class="custom-tab" data-tab="Food"><a class="custom-tab-content">Food</a></li>
+            <li class="custom-tab" data-tab="Beverages"><a class="custom-tab-content">Beverages</a></li>
+            <li class="custom-tab" data-tab="Chems"><a class="custom-tab-content">Chems</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <div class="tab" data-tab="Weapons" data-group="primary-tabs">
+            <div>
+                {{> 'modules/Fallout-Crafting/Data_Files/parts/Weapons.html' this}}
+            </div>
+        </div>
+        <div class="tab" data-tab="Appareal" data-group="primary-tabs">
+            <div>
+                {{> 'modules/Fallout-Crafting/Data_Files/parts/Appareal.html' this}}
+            </div>
+        </div>
+        <div class="tab" data-tab="Food" data-group="primary-tabs">
+            <div>
+                {{> 'modules/Fallout-Crafting/Data_Files/parts/Food.html' this}}
+            </div>
+        </div>
+        <div class="tab" data-tab="Beverages" data-group="primary-tabs">
+            <div>
+                {{> 'modules/Fallout-Crafting/Data_Files/parts/Beverages.html' this}}
+            </div>
+        </div>
+        <div class="tab" data-tab="Chems" data-group="primary-tabs">
+            <div>
+                {{> 'modules/Fallout-Crafting/Data_Files/parts/Chems.html' this}}
+            </div>
+        </div>
+    </section>
+</form>

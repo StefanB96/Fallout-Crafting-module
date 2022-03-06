@@ -1,0 +1,22 @@
+{
+  "name": "Fallout-Crafting",
+  "title": "Fallout-Crafting - An enhancement module for fallout 2d20",
+  "description": "This module includes the crafting system of the fallout 2d20 TTRPG to Foundry VTT",
+  "author": "Stefan",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "0.9.0",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "scripts": [
+    "scripts/Fallout-Crafting.js"
+  ],
+  "styles": [
+    "styles/Fallout-Crafting.css"
+  ]
+}

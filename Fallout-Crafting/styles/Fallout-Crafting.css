@@ -1,0 +1,28 @@
+.custom-tabs{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #325885;
+    width: 100%;
+}
+.custom-tab {
+    float: left;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    width: 100%;
+}
+.custom-tab-content{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #eee787;
+    width: 100%;
+}
+.custom-nav-bar{
+    width: 100%;
+}
+form.custom-window-content{
+    background-color: #325885;
+}
